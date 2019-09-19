@@ -4,3 +4,161 @@ body
 {
     background-color:#c4e1ed;
 }
+
+/*detales barra de navegacion*/
+.mynavstyle
+{
+    background-image: linear-gradient( #cccccc,#e6e6e6) !important;
+}
+
+/*hover y action de la barra de navegacion*/
+.mynavstyle a:hover {
+    border-bottom: 2px solid #0a009957;
+}
+.active a {
+    border-bottom: 2px solid #0a009957;
+}
+
+/*separacion de una opccion del navar y dirigir a la derecha, estilos p[ropios de ese boton*/
+.mrt a {
+    background: #8b8a8d;
+    color: #fff !important;
+    border-radius: 20px;
+    padding: 3px 3px !important;
+    box-shadow: 3px 3px 5px #777;
+    width: 120px;
+    text-align: center;
+}
+
+.mrt a:hover {
+    background: #497f97;
+    box-shadow: none;    
+}
+
+/*detalles del carrusel*/
+.carousel-caption {
+    margin-bottom:20%;
+    margin-bottom:20%;
+    background: rgba(0,0,0,0.6);
+    padding: 20px 45px;
+}
+
+.carousel-caption h5{
+    font-size:50px;
+    text-transform:uppercase;
+}
+
+.carousel-caption p{
+    font-size:20px;
+}
+
+CSS
+
+div {
+border-radius: 5px;
+}
+
+#encabezado {
+z-index: 1;
+position: fixed;
+background-color: lightSkyBlue;
+width: 97%;
+height: 60px;
+border: 2px dotted lightblue;
+font-family: Times;
+margin-top: -20px;
+margin-bottom: 10px;
+}
+
+.izquierda {
+float: left;
+background-color: lightblue;
+width: 20%;
+height: 350px;
+margin-top: 55px;
+margin-bottom: 10px;
+border: 2px groove white;
+}
+
+.derecha {
+float: right;
+background-color: rgb(240, 240, 240);
+width: 78%;
+height: 350px;
+margin-top: 55px;
+margin-bottom: 10px;
+border: 2px groove white;
+}
+
+#pie {
+margin-top: 20px;
+margin-bottom: 10px;
+clear: both;
+background-color: rgb(235, 235, 235);
+width: 100%;
+height: 60px;
+border: 2px groove white;
+font-family: Times;
+}
+
+#email {
+float: right;
+text-decoration: none;
+color: white;
+margin: 10px;
+}
+
+#email:hover {
+font-weight: bold;
+color: gray;
+}
+
+#name {
+float: left;
+font-weight: bold;
+color: rgb(230, 230, 230);
+font-size: 1.5em;
+margin: 22px 10px 10px 10px;
+}
+
+#name:hover {
+color: white;
+}
+
+.content {
+margin: 10px;
+}
+
+h4 {
+color: lightSkyBlue;
+}
+
+#direccion {
+text-align: center;
+color: lightSkyBlue;
+}
+
+span:hover {
+color: gray;
+font-weight: bold;
+}
+
+ol {
+list-style: none;
+margin: 20px 0 0 -20px;
+color: rgb(230, 230, 230);
+font-size: 1em;
+}
+
+a {
+text-decoration: none;
+color: rgb(230, 230, 230);
+}
+
+a:active {
+color: darkred;
+}
+
+#margen-top {
+margin-top: 12px;
+}
